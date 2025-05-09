@@ -7,14 +7,14 @@
       "extensions": [
         "sema4ai.sema4ai",
         "ms-python.python"
-      ]
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.formatting.provider": "autopep8",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true
+      }
     }
   },
-  "features": {},
-  "settings": {
-    "python.defaultInterpreterPath": "/usr/local/bin/python",
-    "python.formatting.provider": "autopep8",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true
-  }
+  "features": {}
 }
