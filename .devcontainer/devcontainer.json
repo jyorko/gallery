@@ -1,0 +1,20 @@
+{
+  "name": "robocorp-rcc-sema4ai-container",
+  "image": "ghcr.io/joshyorko/ror:latest",
+  "remoteUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "sema4ai.sema4ai",
+        "ms-python.python"
+      ]
+    }
+  },
+  "features": {},
+  "settings": {
+    "python.defaultInterpreterPath": "/usr/local/bin/python",
+    "python.formatting.provider": "autopep8",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true
+  }
+}
